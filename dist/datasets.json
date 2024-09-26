@@ -1,0 +1,74 @@
+[
+	{
+		"label": "sambak",
+		"pattern": [
+			"sambak",
+			"saambak"
+		]
+	},
+	{
+		"label": "sari_sandu",
+		"pattern": [
+			"saree sandoo",
+			"sandoo",
+			"sari sandu",
+			"saari saandu",
+			"seri sendu"
+		]
+	},
+	{
+		"label": "nusa_fua_funi",
+		"pattern": [
+			"nusa fua funi",
+			"fua funi",
+			"nusa fua",
+			"noosa fooa fooni",
+			"fooa fooni",
+			"noosa fooa"
+		]
+	},
+	{
+		"label": "ina_boi",
+		"pattern": [
+			"ina bo ee",
+			"ina boi",
+			"ina",
+			"eena boee"
+		]
+	},
+	{
+		"label": "ama_boi",
+		"pattern": [
+			"aama bo ee",
+			"ama boi",
+			"ama",
+			"ama bo ee"
+		]
+	},
+	{
+		"label": "deta_hitu",
+		"pattern": [
+			"deta heetoo",
+			"deta hitu",
+			"detaa heetow",
+			"detaa",
+			"heetow"
+		]
+	},
+	{
+		"label": "manek",
+		"pattern": [
+			"maanek",
+			"manek"
+		]
+	},
+	{
+		"label": "tirosa",
+		"pattern": [
+			"tirosa",
+			"teerosaa",
+			"tee rosaa",
+			"rosaa"
+		]
+	}
+]

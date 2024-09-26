@@ -1,0 +1,118 @@
+[
+	{
+		"label": "salam",
+		"patterns": [
+			"Hai",
+			"Hi",
+			"Hei",
+			"Hey",
+			"Halo",
+			"Apa Kabar",
+			"Selamat Pagi",
+			"Selamat Siang",
+			"Selamat Malam",
+			"Salam"
+		],
+		"responses": [
+			"Halo!",
+			"Hai",
+			"Halo, ada yang bisa saya bantu?",
+			"Halo selamat datang",
+			"Hai Kawan"
+		]
+	},
+	{
+		"label": "waktu",
+		"patterns": [
+			"Sekarang jam berapa?",
+			"Jam berapa sekarang?",
+			"Tolong infokan waktu saat ini",
+			"Boleh tahu waktu sekarang?"
+		],
+		"responses": [
+			"Sekarang jam {curr_time}.",
+			"Pukul {curr_time}",
+			"Waktunya adalah {curr_time}",
+			"Saat ini pukul {curr_time}"
+		]
+	},
+	{
+		"label": "jumlah_peserta",
+		"patterns": [
+			"Sekarang berapa jumlah pesertanya?",
+			"Ada berapa orang yang ikut?",
+			"Bisa tahu jumlah peserta saat ini?",
+			"Berapa banyak peserta yang hadir sekarang?"
+		],
+		"responses": [
+			"Saat ini ada {curr_participants} peserta yang hadir.",
+			"Jumlah peserta yang ikut adalah {curr_participants} orang.",
+			"Terdapat {curr_participants} peserta yang sedang hadir.",
+			"Jumlah peserta saat ini ada {curr_participants} orang."
+		]
+	},
+	{
+		"label": "slide",
+		"patterns": [
+			"Sekarang di slide ke berapa?",
+			"Sudah di slide ke berapa?",
+			"slide berapa?",
+			"Slide berapa yang sedang ditampilkan?",
+			"Tolong informasikan slide yang sekarang?",
+			"Slide nomor berapa yang sedang aktif?"
+		],
+		"responses": [
+			"Kita sedang berada di slide ke-{curr_slide}.",
+			"Slide yang ditampilkan saat ini adalah slide nomor {curr_slide}.",
+			"Saat ini sedang menampilkan slide ke-{curr_slide}.",
+			"Slide yang aktif sekarang adalah slide nomor {curr_slide}."
+		]
+	},
+	{
+		"label": "info_presentasi",
+		"patterns": [
+		  "Ada total berapa slide?",
+		  "Berapa jumlah slide dalam presentasi?",
+		  "Slide total ada berapa?",
+		  "Jumlah total slide?",
+		  "Sampai berapa slide?",
+		  "berapa slide?",
+		  "berapa slide semua?",
+		  "Slide berapa saja yang ada?"
+		],
+		"responses": [
+		  "Presentasi ini memiliki total {total_slide} slide.",
+		  "Ada total {total_slide} slide dalam presentasi.",
+		  "Jumlah slide dalam presentasi adalah {total_slide}.",
+		  "Terdapat {total_slide} slide dalam presentasi ini."
+		]
+	  },
+	  {
+		"label": "host_presentasi",
+		"patterns": [
+		  "Siapa yang host/presentasi?",
+		  "Siapa yang memandu presentasi?",
+		  "Siapa yang sedang melakukan presentasi?",
+		  "Siapakah presenter dalam acara ini?"
+		],
+		"responses": [
+		  "Presentasi ini dipandu oleh {host_name}.",
+		  "{host_name} adalah presenter dalam presentasi ini.",
+		  "Yang memandu presentasi adalah {host_name}."
+		]
+	  },
+	  {
+		"label": "lama_presentasi",
+		"patterns": [
+		  "Sudah berapa lama presentasi?",
+		  "Berapa durasi presentasi ini?",
+		  "Presentasi sudah berjalan selama berapa lama?",
+		  "Berapa lama presentasi akan berlangsung?"
+		],
+		"responses": [
+		  "Presentasi ini sudah berjalan selama {curr_connection}.",
+		  "Durasi presentasi ini diperkirakan sekitar {curr_connection}.",
+		  "Saat ini, presentasi telah berlangsung selama {curr_connection}."
+		]
+	  }
+]

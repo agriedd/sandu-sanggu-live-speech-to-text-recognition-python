@@ -1,0 +1,112 @@
+Language model created by QuickLM on Mon Nov  6 12:51:13 EST 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 27 words
+
+\data\
+ngram 1=27
+ngram 2=37
+ngram 3=25
+
+\1-grams:
+-0.9120 </s> -0.3010
+-0.9120 <s> -0.2443
+-1.9912 ANA -0.2966
+-1.9912 BO -0.2966
+-1.9912 BOOLOOK -0.2443
+-1.9912 CAMBA -0.2443
+-1.9912 DETA -0.2966
+-1.9912 EE -0.2443
+-1.9912 FETO -0.2443
+-1.9912 FUA -0.2966
+-1.9912 FUNI -0.2443
+-1.9912 HEETOO -0.2443
+-1.9912 INA -0.2966
+-1.9912 LILO -0.2443
+-1.9912 MANEK -0.2443
+-1.9912 NDANA -0.2966
+-1.9912 NEETA -0.2966
+-1.9912 NGEOO -0.2966
+-1.9912 NOOSA -0.2966
+-1.9912 SAIBOAK -0.2443
+-1.9912 SAMBAK -0.2443
+-1.9912 SANDOO -0.2443
+-1.9912 SANDU -0.2966
+-1.9912 SANGU -0.2443
+-1.9912 SAREE -0.2966
+-1.9912 TA -0.2966
+-1.9912 TOOTOO -0.2966
+
+\2-grams:
+-1.3802 <s> ANA 0.0000
+-1.3802 <s> DETA 0.0000
+-1.3802 <s> INA 0.0000
+-1.3802 <s> MANEK 0.0000
+-1.3802 <s> NDANA 0.0000
+-1.3802 <s> NGEOO 0.0000
+-1.3802 <s> NOOSA 0.0000
+-1.3802 <s> SAIBOAK 0.0000
+-1.3802 <s> SAMBAK 0.0000
+-1.3802 <s> SANDU 0.0000
+-1.3802 <s> SAREE 0.0000
+-1.3802 <s> TOOTOO 0.0000
+-0.3010 ANA FETO 0.0000
+-0.3010 BO EE 0.0000
+-0.3010 BOOLOOK </s> -0.3010
+-0.3010 CAMBA </s> -0.3010
+-0.3010 DETA HEETOO 0.0000
+-0.3010 EE </s> -0.3010
+-0.3010 FETO </s> -0.3010
+-0.3010 FUA FUNI 0.0000
+-0.3010 FUNI </s> -0.3010
+-0.3010 HEETOO </s> -0.3010
+-0.3010 INA BO 0.0000
+-0.3010 LILO </s> -0.3010
+-0.3010 MANEK </s> -0.3010
+-0.3010 NDANA TA 0.0000
+-0.3010 NEETA CAMBA 0.0000
+-0.3010 NGEOO BOOLOOK 0.0000
+-0.3010 NOOSA FUA 0.0000
+-0.3010 SAIBOAK </s> -0.3010
+-0.3010 SAMBAK </s> -0.3010
+-0.3010 SANDOO </s> -0.3010
+-0.3010 SANDU SANGU 0.0000
+-0.3010 SANGU </s> -0.3010
+-0.3010 SAREE SANDOO 0.0000
+-0.3010 TA NEETA 0.0000
+-0.3010 TOOTOO LILO 0.0000
+
+\3-grams:
+-0.3010 <s> ANA FETO
+-0.3010 <s> DETA HEETOO
+-0.3010 <s> INA BO
+-0.3010 <s> MANEK </s>
+-0.3010 <s> NDANA TA
+-0.3010 <s> NGEOO BOOLOOK
+-0.3010 <s> NOOSA FUA
+-0.3010 <s> SAIBOAK </s>
+-0.3010 <s> SAMBAK </s>
+-0.3010 <s> SANDU SANGU
+-0.3010 <s> SAREE SANDOO
+-0.3010 <s> TOOTOO LILO
+-0.3010 ANA FETO </s>
+-0.3010 BO EE </s>
+-0.3010 DETA HEETOO </s>
+-0.3010 FUA FUNI </s>
+-0.3010 INA BO EE
+-0.3010 NDANA TA NEETA
+-0.3010 NEETA CAMBA </s>
+-0.3010 NGEOO BOOLOOK </s>
+-0.3010 NOOSA FUA FUNI
+-0.3010 SANDU SANGU </s>
+-0.3010 SAREE SANDOO </s>
+-0.3010 TA NEETA CAMBA
+-0.3010 TOOTOO LILO </s>
+
+\end\
